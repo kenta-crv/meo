@@ -1,0 +1,488 @@
+// Place all the styles related to the tops controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+                                            /*main wrapper*/
+.main-wrapper {
+  position:relative;    
+    .main-image {
+        width:100%;
+        }    
+    .strong-point{
+        width:200px;
+        position:absolute;
+        top:0px;
+        left:0px;
+        }
+    .trams-45 {
+        transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        position:absolute;
+        font-size:18px;
+        font-weight:bold;
+        color:white;
+        top:20px;
+        left:20px;
+        } 
+    .main-text {
+        position:absolute;
+        font-size:36px;
+        top:40px;
+        right:30px;
+        text-shadow: 1px 2px 1px #fff;
+        }
+    .main-phone{
+        width:200px;
+        position:absolute;
+        bottom:20px;
+        right:45px;
+        }
+}
+
+
+                                                        /*Title list*/
+.heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #70BF41;
+  font-weight: bold;
+        h2 {
+            font-size:30px;
+            font-weight:bold;
+            margin-left:100px;
+            padding-bottom:20px;
+            }
+        h3 {
+            color: white;
+            text-shadow: 1px 2px 1px #000;
+            background: #70BF41; 
+            line-height: 2.5;
+            font-weight:bold;
+            font-size:20px;
+            text-align:center;
+            width:90%;
+            margin-left:0;
+            border-right: solid 2px #666;/*左線*/
+            border-bottom: solid 3px #666;/*下線*/
+            box-shadow:5px 5px 5px;
+            }    
+        span   {
+            color:#00882B;
+            font-size:45px;
+            }
+}
+
+
+
+
+
+                                            /*Back Wrapper*/
+.base-wrapper {
+  background-color: #fff;  
+  padding-bottom: 70px;
+  position:relative;
+}
+
+                                            /*商品内容２カラム*/                                                                           
+.two_column {
+  width: 50%;
+  position: relative;
+    .over-image{
+        width:80%; 
+    }
+    .front-color {
+        background-color: rgba(0, 180, 255, 0.6);
+    }    
+    h4{
+      color: black;
+      background: #D6D5D5; 
+      line-height: 2.5;
+      font-weight:bold;
+      font-size:18px;
+      width:80%;
+      border-left : solid 100px #1DB100;/*先の色＝アイコン裏の色*/
+      margin:auto;
+      }    
+    p{
+      color: black;
+      width:80%;
+      margin:10px auto 50px;
+      }    
+}
+
+
+                                            /*商品内容３カラム*/                                                                                      
+.three_column {
+  float: left;
+  width: 33%;
+  position: relative;
+    .over-image{
+        width:80%; 
+    }
+    h4{
+      color: black;
+      background: #D6D5D5; 
+      line-height: 2.5;
+      font-weight:bold;
+      font-size:16px;
+      width:80%;
+      border-left : solid 50px #1DB100;/*先の色＝アイコン裏の色*/
+      margin:auto;
+      }    
+    p{
+      color: black;
+      width:80%;
+      margin:10px auto 50px;
+      }    
+    .title-with{
+      color: white;
+      font-weight:bold;
+      font-size:24px;
+      position: absolute;
+      top:2px;
+      left:55px;
+    }
+}
+
+
+.point {
+    .three{
+          float: left;
+          width: 50%;   
+    }
+    h4{   
+        font-size:18px;
+    }
+    p{
+        font-size:15px;
+        padding-bottom:15px;
+    }
+}
+
+
+                                            /*イメージゾーン*/        
+.center-image {
+    height:400px;
+    float:center;
+}
+.portal-image {
+    width:50%;
+}
+.portal-heading {
+    width:60%;
+    margin:30px auto 0 auto;
+    font-size:16px;
+}
+
+
+.clear {
+  clear: left;
+}
+
+.ques-wrapper {
+    text-align:center;
+    .ques {
+        width:65%;
+        margin:45px 0 45px;
+        }
+}
+
+                                                        
+                                             /*多彩な機能の紹介*/
+                                             
+.list-right-second{
+  text-align: left;
+  font-size: 18px;
+  opacity: 0.8;
+  margin-left:410px;
+          span{
+            color:#00882B;
+            }
+          p {
+            margin-top:-15px;
+            font-size:12px;
+            font-weight:normal; 
+          }
+}
+
+
+
+                                        /*MEOってそもそも何？*/
+.image-left {
+  width: 400px;
+  margin-left:70px;
+  float: left;
+  }
+.list-right {
+  text-align: left;
+  font-size: 18px;
+  line-height: 40px;
+  opacity: 0.8;
+  padding:0 100px 0 550px;
+}
+.list-left {
+  width:500px;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: bold;
+  opacity: 0.8;
+  float: left;
+  padding:0 0 0 100px;
+}
+
+.image-right {
+  width: 250px;
+  margin-left:135px;
+} 
+
+.list-name {
+    text-align:left;
+}
+
+
+                             /*　利便性の高い高機能で行動しやすい*/
+.user-action {
+    position:relative;
+    margin-bottom:80px;
+    
+    .three-image1 {
+        width:200px;
+        position:absolute;
+        top:30px;
+        margin-left:30px;
+        }
+        .three-image2 {
+        width:200px;
+        position:absolute;
+        top:30px;
+        margin-left:400px;
+        }
+        .three-image3 {
+        width:200px;
+        position:absolute;
+        top:30px;
+        margin-left:770px;
+        }
+    .back-image{
+        width:100%;
+        padding-top:100px;
+    }
+}
+
+
+                             /*　多彩な機能をご紹介  */
+.smart-image{
+    width:200px;
+    margin-left:100px;
+    float: left;
+}
+.list-right-second{
+    position:relative;
+    p{
+       position:absolute;
+       color:#444;
+       text-align:center;
+       top:19px;
+       left:240px; 
+    }
+}
+
+                             /*　キーワード設定*/
+.key-image {
+    width:95%;
+}
+.key-text {
+    width:85%;
+    margin:0 auto;
+    text-align:center;
+}
+
+
+hr {
+    height:5px;
+    background: #00882B;
+    background-image: -webkit-linear-gradient(left, #eee, #00882B, #eee);
+    background-image: -moz-linear-gradient(left, #eee, #00882B, #eee);
+    background-image: -ms-linear-gradient(left, #eee, #00882B, #eee);
+    background-image: -o-linear-gradient(left, #eee, #00882B, #eee);
+    width:90%;
+}
+
+
+
+.comparison {
+    position:relative;
+
+    .comparison-text {
+        position:absolute;
+        width:380px;
+        font-size:8px;
+        top:500px;
+        left:80px;
+        }
+}
+
+
+                          /*  上位３位以内で高い集客率を誇ります  */
+.list-right-comparison {
+  font-size: 12px;
+  opacity: 0.8;
+  padding:0 100px 0 550px;
+  text-align:center;
+
+    .small-header{ 
+        margin:0 auto;
+        font-weight: bold;
+        color: white;/*文字色*/
+        font-size: 16px;
+        text-shadow: 1px 2px 1px #000;
+    
+    .green{
+        background: #70BF41;
+        }
+    .blue{
+        background: #00A2FF;
+        }
+    .red{
+        background: #EE220C;
+        }
+    }
+}
+
+
+.group-three {
+    position:relative;
+    margin-bottom:20px;
+    .three-paragraph {
+        width:150px;
+        margin-left:100px;
+        }
+    h3 {
+        position:absolute;
+        color: white;
+        text-align: center;
+        text-shadow: 1px 2px 1px #000;
+        background: #70BF41; 
+        line-height: 2.0;
+        font-weight:bold;
+        font-size:16px;
+        width:120px;
+        border-right: solid 2px #666;/*左線*/
+        border-bottom: solid 3px #666;/*下線*/
+        box-shadow:5px 5px 5px;
+        top:0px;
+        left:400px;
+        }
+    h4 {
+        color:black;
+        font-size:14px;
+        position:absolute;
+        top:-5px;
+        left:600px;
+    }
+    span {
+        color:red;
+        font-size:24px;
+    }
+    p {
+        color:black;
+        font-size:12px;
+        position:absolute;
+        top:60px;
+        left:400px;        
+    }
+}
+
+
+.group-four {
+    margin-bottom:35px;
+    position:relative;
+    h3 {
+        color: white;
+        text-align: center;
+        text-shadow: 1px 2px 1px #000;
+        background: #00882B; 
+        line-height: 2.5;
+        font-weight:bold;
+        font-size:16px;
+        width:150px;
+        border-right: solid 2px #666;/*左線*/
+        border-bottom: solid 3px #666;/*下線*/
+        box-shadow:5px 5px 5px;
+        margin-left:120px;
+        }
+        p {
+        color:black;
+        font-size:12px;
+        width:50%;
+        position:absolute;
+        top:-10px;
+        left:350px;        
+        }
+}
+
+.image-left-47 {
+    width: 300px;
+    margin-top:30px;
+    margin-left:100px;
+    float: left;
+}
+
+
+                                                   /*検索ボタン*/
+ /*フォーム全体*/
+    #form1{
+        /*フォームの相対位置*/	
+        max-width:270px;/*フォームのサイズ*/
+        margin-bottom:15px;/*フォームの下に余白*/	 	
+        }
+    /*検索ボックス*/
+    #sbox{
+        position:absolute;/*フォームの絶対位置*/	
+        left:120px;
+        top:300px; 	
+        outline:0;/*クリック時の青い枠線消す*/	
+        height:50px;/*検索ボックスの高さ*/	
+        width:250px;
+        font-size:21px;
+        padding:0 10px;/*テキスト位置調整*/	 
+        border-radius:2px 0 0 2px;/*検索ボックスの角を丸める*/		
+        background:#eee;/*検索ボックスの背景カラー*/		
+        }
+/*検索ボタン*/
+    #sbtn{
+        width:70px;/*検索ボタンの横幅*/ 
+        height:50px;/*検索ボタンの縦幅*/ 
+        position:absolute;/*検索ボタンの絶対位置*/  
+        top:300px;
+        left:380px;
+        border-radius:0 2px 2px 0;/*検索ボタンの角を丸める*/ 
+        background:#00882B;/*検索ボタンの背景カラー*/ 
+        border:none;/*検索ボタンの枠線を消す*/ 
+        color:#fff;/*検索ボタンのテキストカラー*/ 
+        font-weight:bold;/*検索ボタンのテキスト太字*/ 
+        font-size:16px;/*検索ボタンのフォントサイズ*/ 
+        }
+    /*検索ボタンマウスオーバー時*/
+    #sbtn:hover{
+        color:#666;/*検索ボタンマウスオーバー時のフォントカラー*/ 
+        }
+
+
+                                                   /*footer*/
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+    p {
+        color: #b3aeb5;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
